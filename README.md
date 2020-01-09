@@ -457,8 +457,7 @@ sns.lmplot('Room.Board','Grad.Rate',data=df, hue='Private',
            palette='coolwarm',size=6,aspect=1,fit_reg=True)
 ```
 
-    C:\Users\p2840013\AppData\Local\Continuum\anaconda3_school\lib\site-packages\seaborn\regression.py:546: UserWarning: The `size` paramter has been renamed to `height`; please update your code.
-      warnings.warn(msg, UserWarning)
+   
     
 
 
