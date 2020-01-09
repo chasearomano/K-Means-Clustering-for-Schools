@@ -482,14 +482,6 @@ sns.lmplot('Outstate','F.Undergrad',data=df, hue='Private',
            palette='coolwarm',size=6,aspect=1,fit_reg=False)
 ```
 
-    C:\Users\p2840013\AppData\Local\Continuum\anaconda3_school\lib\site-packages\seaborn\regression.py:546: UserWarning: The `size` paramter has been renamed to `height`; please update your code.
-      warnings.warn(msg, UserWarning)
-    
-
-
-
-
-    <seaborn.axisgrid.FacetGrid at 0x2953f4312b0>
 
 
 
@@ -641,13 +633,6 @@ df[df['Grad.Rate'] > 100]
 ```python
 df['Grad.Rate']['Cazenovia College'] = 100
 ```
-
-    C:\Users\p2840013\AppData\Local\Continuum\anaconda3_school\lib\site-packages\ipykernel_launcher.py:1: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-      """Entry point for launching an IPython kernel.
-    
 
 
 ```python
